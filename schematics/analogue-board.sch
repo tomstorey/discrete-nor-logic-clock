@@ -11025,13 +11025,13 @@ Wickmann</description>
 <part name="C3" library="rcl" deviceset="C-EU" device="050-024X044" value="100nF"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E7.5-16" value="1200uF"/>
 <part name="FRAME1" library="frames" deviceset="DINA3_L" device=""/>
-<part name="R4" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="4K7"/>
-<part name="Q2" library="NOR gate clock" deviceset="2N7000" device=""/>
+<part name="R6" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="4K7"/>
+<part name="Q4" library="NOR gate clock" deviceset="2N7000" device=""/>
 <part name="C6" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="220uF"/>
 <part name="SUPPLY5" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="VSS" device=""/>
-<part name="R5" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="4K7"/>
-<part name="R6" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="100K"/>
+<part name="R7" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="4K7"/>
+<part name="R8" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="100K"/>
 <part name="SUPPLY7" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="VSS" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="050-024X044" value="100nF"/>
@@ -11095,11 +11095,11 @@ Wickmann</description>
 <part name="SUPPLY2" library="supply2" deviceset="VDD" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="050-025X075" value="1nF"/>
 <part name="SUPPLY4" library="supply2" deviceset="VSS" device=""/>
-<part name="Q3" library="NOR gate clock" deviceset="2N7000" device=""/>
+<part name="Q5" library="NOR gate clock" deviceset="2N7000" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="VDD" device=""/>
-<part name="R7" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="1K"/>
-<part name="R8" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="10K"/>
-<part name="R9" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="100K"/>
+<part name="R9" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="1K"/>
+<part name="R10" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="10K"/>
+<part name="R11" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="100K"/>
 <part name="SUPPLY14" library="supply2" deviceset="VSS" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="VSS" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="VSS" device=""/>
@@ -11114,10 +11114,10 @@ Wickmann</description>
 <part name="SW1" library="switch" deviceset="255SB" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="050-025X075" value="1nF"/>
 <part name="SUPPLY25" library="supply2" deviceset="VSS" device=""/>
-<part name="Q4" library="NOR gate clock" deviceset="2N7000" device=""/>
-<part name="Q5" library="NOR gate clock" deviceset="2N7000" device=""/>
-<part name="R10" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="100K"/>
-<part name="R11" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="100K"/>
+<part name="Q2" library="NOR gate clock" deviceset="2N7000" device=""/>
+<part name="Q3" library="NOR gate clock" deviceset="2N7000" device=""/>
+<part name="R4" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="100K"/>
+<part name="R5" library="NOR gate clock" deviceset="R-EU_" device="0207/2V" value="100K"/>
 <part name="SUPPLY3" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY21" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="VSS" device=""/>
@@ -11189,13 +11189,13 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 <instance part="C2" gate="G$1" x="157.48" y="185.42"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="287.02" y="0"/>
-<instance part="R4" gate="G$1" x="259.08" y="180.34" rot="R90"/>
-<instance part="Q2" gate="G$1" x="271.78" y="175.26"/>
+<instance part="R6" gate="G$1" x="259.08" y="180.34" rot="R90"/>
+<instance part="Q4" gate="G$1" x="271.78" y="175.26"/>
 <instance part="C6" gate="G$1" x="251.46" y="167.64" rot="MR0"/>
 <instance part="SUPPLY5" gate="G$1" x="259.08" y="190.5"/>
 <instance part="SUPPLY6" gate="G$1" x="259.08" y="152.4"/>
-<instance part="R5" gate="G$1" x="259.08" y="165.1" rot="R90"/>
-<instance part="R6" gate="G$1" x="279.4" y="185.42" rot="R90"/>
+<instance part="R7" gate="G$1" x="259.08" y="165.1" rot="R90"/>
+<instance part="R8" gate="G$1" x="279.4" y="185.42" rot="R90"/>
 <instance part="SUPPLY7" gate="G$1" x="279.4" y="195.58"/>
 <instance part="SUPPLY8" gate="G$1" x="279.4" y="167.64"/>
 <instance part="C1" gate="G$1" x="144.78" y="185.42"/>
@@ -11205,14 +11205,14 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 <instance part="SUPPLY2" gate="G$1" x="233.68" y="96.52"/>
 <instance part="C7" gate="G$1" x="269.24" y="86.36"/>
 <instance part="SUPPLY4" gate="G$1" x="264.16" y="71.12"/>
-<instance part="Q3" gate="G$1" x="281.94" y="81.28" smashed="yes">
+<instance part="Q5" gate="G$1" x="281.94" y="81.28" smashed="yes">
 <attribute name="VALUE" x="278.13" y="81.28" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="NAME" x="283.718" y="85.598" size="1.778" layer="95" align="bottom-right"/>
 </instance>
 <instance part="SUPPLY11" gate="G$1" x="289.56" y="101.6"/>
-<instance part="R7" gate="G$1" x="241.3" y="91.44"/>
-<instance part="R8" gate="G$1" x="256.54" y="78.74"/>
-<instance part="R9" gate="G$1" x="289.56" y="91.44" rot="R90"/>
+<instance part="R9" gate="G$1" x="241.3" y="91.44"/>
+<instance part="R10" gate="G$1" x="256.54" y="78.74"/>
+<instance part="R11" gate="G$1" x="289.56" y="91.44" rot="R90"/>
 <instance part="SUPPLY14" gate="G$1" x="83.82" y="60.96"/>
 <instance part="SUPPLY15" gate="G$1" x="91.44" y="60.96"/>
 <instance part="SUPPLY16" gate="G$1" x="109.22" y="58.42"/>
@@ -11230,16 +11230,16 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 <instance part="SW1" gate="1" x="134.62" y="81.28" rot="MR270"/>
 <instance part="C5" gate="G$1" x="142.24" y="73.66"/>
 <instance part="SUPPLY25" gate="G$1" x="142.24" y="63.5"/>
-<instance part="Q4" gate="G$1" x="152.4" y="81.28" smashed="yes">
+<instance part="Q2" gate="G$1" x="152.4" y="81.28" smashed="yes">
 <attribute name="VALUE" x="148.59" y="81.28" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="NAME" x="154.178" y="85.598" size="1.778" layer="95" align="bottom-right"/>
 </instance>
-<instance part="Q5" gate="G$1" x="170.18" y="81.28" smashed="yes">
+<instance part="Q3" gate="G$1" x="170.18" y="81.28" smashed="yes">
 <attribute name="VALUE" x="166.37" y="81.28" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="NAME" x="171.958" y="85.598" size="1.778" layer="95" align="bottom-right"/>
 </instance>
-<instance part="R10" gate="G$1" x="160.02" y="91.44" rot="R90"/>
-<instance part="R11" gate="G$1" x="177.8" y="91.44" rot="R90"/>
+<instance part="R4" gate="G$1" x="160.02" y="91.44" rot="R90"/>
+<instance part="R5" gate="G$1" x="177.8" y="91.44" rot="R90"/>
 <instance part="SUPPLY3" gate="G$1" x="160.02" y="101.6"/>
 <instance part="SUPPLY21" gate="G$1" x="177.8" y="101.6"/>
 <instance part="SUPPLY22" gate="G$1" x="160.02" y="73.66"/>
@@ -11276,7 +11276,7 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 <junction x="157.48" y="177.8"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="S"/>
+<pinref part="Q4" gate="G$1" pin="S"/>
 <pinref part="SUPPLY8" gate="G$1" pin="VSS"/>
 <wire x1="276.86" y1="172.72" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="172.72" x2="279.4" y2="170.18" width="0.1524" layer="91"/>
@@ -11287,7 +11287,7 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 <pinref part="SUPPLY6" gate="G$1" pin="VSS"/>
 <wire x1="251.46" y1="157.48" x2="259.08" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="157.48" x2="259.08" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="259.08" y1="160.02" x2="259.08" y2="157.48" width="0.1524" layer="91"/>
 <junction x="259.08" y="157.48"/>
 </segment>
@@ -11306,7 +11306,7 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 <junction x="264.16" y="88.9"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="Q5" gate="G$1" pin="S"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VSS"/>
 <wire x1="287.02" y1="78.74" x2="289.56" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="78.74" x2="289.56" y2="76.2" width="0.1524" layer="91"/>
@@ -11338,13 +11338,13 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 <wire x1="142.24" y1="66.04" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q4" gate="G$1" pin="S"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="157.48" y1="78.74" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="78.74" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
-<pinref part="Q5" gate="G$1" pin="S"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
 <wire x1="175.26" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="78.74" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY23" gate="G$1" pin="VSS"/>
@@ -11359,24 +11359,24 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="VDD"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="187.96" x2="259.08" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="VDD"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="193.04" x2="279.4" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="VDD"/>
 <wire x1="236.22" y1="91.44" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="91.44" x2="233.68" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="G$1" pin="VDD"/>
 <wire x1="289.56" y1="99.06" x2="289.56" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -11384,12 +11384,12 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 <wire x1="142.24" y1="93.98" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VDD"/>
 <wire x1="160.02" y1="99.06" x2="160.02" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="SUPPLY21" gate="G$1" pin="VDD"/>
 <wire x1="177.8" y1="99.06" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -11439,9 +11439,9 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 </net>
 <net name="PWR_ON_RESET" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
+<pinref part="Q4" gate="G$1" pin="D"/>
 <wire x1="276.86" y1="177.8" x2="279.4" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="177.8" x2="284.48" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="180.34" x2="279.4" y2="177.8" width="0.1524" layer="91"/>
 <junction x="279.4" y="177.8"/>
@@ -11450,27 +11450,27 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="175.26" x2="259.08" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="+"/>
 <wire x1="259.08" y1="172.72" x2="259.08" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="172.72" x2="251.46" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="172.72" x2="251.46" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="G"/>
+<pinref part="Q4" gate="G$1" pin="G"/>
 <wire x1="259.08" y1="172.72" x2="266.7" y2="172.72" width="0.1524" layer="91"/>
 <junction x="259.08" y="172.72"/>
 </segment>
 </net>
 <net name="RESET_BTN" class="0">
 <segment>
-<pinref part="Q3" gate="G$1" pin="D"/>
+<pinref part="Q5" gate="G$1" pin="D"/>
 <wire x1="287.02" y1="83.82" x2="289.56" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="83.82" x2="294.64" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="86.36" x2="289.56" y2="83.82" width="0.1524" layer="91"/>
 <junction x="289.56" y="83.82"/>
 <label x="294.64" y="83.82" size="1.27" layer="95" xref="yes"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -11496,8 +11496,8 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 <wire x1="248.92" y1="78.74" x2="248.92" y2="88.9" width="0.1524" layer="91"/>
 <junction x="248.92" y="91.44"/>
 <junction x="248.92" y="88.9"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -11505,10 +11505,10 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="78.74" x2="269.24" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="78.74" x2="269.24" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="G"/>
+<pinref part="Q5" gate="G$1" pin="G"/>
 <wire x1="269.24" y1="78.74" x2="276.86" y2="78.74" width="0.1524" layer="91"/>
 <junction x="269.24" y="78.74"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="AC_IN" class="0">
@@ -11547,7 +11547,7 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 <net name="N$1" class="0">
 <segment>
 <pinref part="SW1" gate="1" pin="P"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="139.7" y1="78.74" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -11559,22 +11559,22 @@ BEING DRAGGED LOW. THIS PREVENTS THE PRESCALER FROM ADVANCING, ALLOWING THE CLOC
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="Q4" gate="G$1" pin="D"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="157.48" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="83.82" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="83.82" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="G"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="162.56" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="86.36" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
 <junction x="160.02" y="83.82"/>
 </segment>
 </net>
 <net name="AC_CLK_GEN/" class="0">
 <segment>
-<pinref part="Q5" gate="G$1" pin="D"/>
+<pinref part="Q3" gate="G$1" pin="D"/>
 <wire x1="175.26" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="83.82" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="86.36" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <junction x="177.8" y="83.82"/>
