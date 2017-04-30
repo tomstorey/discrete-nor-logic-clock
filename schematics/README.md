@@ -12,8 +12,8 @@ The analogue board contains the power supply as well as some other support circu
 
 Schematics are available as:
 
-* EAGLE .sch file: <analogue-board.sch>
-* PDF: <analogue-board.pdf>
+* EAGLE .sch file: [analogue-board.sch](https://github.com/tomstorey/discrete-nor-logic-clock/blob/master/schematics/analogue-board.sch)
+* PDF: [analogue-board.pdf](https://github.com/tomstorey/discrete-nor-logic-clock/blob/master/schematics/analogue-board.pdf)
 
 Blog posts associated with these schematics are:
 
