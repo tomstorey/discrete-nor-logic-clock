@@ -6,7 +6,7 @@ At time of writing this project was still in the design and construction stage, 
 
 Each schematic is associated with a series of blog posts which can be found at [ornotblog.blogspot.com](https://ornotblog.blogspot.com). They will also be linked below on a per schematic basis.
 
-## Analogue board
+## 1. Analogue board
 
 The analogue board contains the power supply as well as some other support circuitry, and a 6 bit ripple counter which acts as a prescaler for the AC mains frequency.
 
