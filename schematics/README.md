@@ -30,4 +30,4 @@ Schematics are available as:
 
 Blog posts associated with these schematics are:
 
-* [Clock design log #1 - analogue board](https://ornotblog.blogspot.co.uk/2017/05/clock-design-log-2-time-module.html)
+* [Clock design log #2 - time module](https://ornotblog.blogspot.co.uk/2017/05/clock-design-log-2-time-module.html)
