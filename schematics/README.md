@@ -18,3 +18,16 @@ Schematics are available as:
 Blog posts associated with these schematics are:
 
 * [Clock design log #1 - analogue board](https://ornotblog.blogspot.co.uk/2017/04/clock-design-log-1-analogue-board.html)
+
+## 2. Time module
+
+The time module contains counters and reset circuitry that counts from 00:00:00 to 23:59:59, generating pulses for 1PPM_CLK/, 1PPH_CLK/ and 1PPD_CLK/ signals.
+
+Schematics are available as:
+
+* EAGLE .sch file: [analogue-board.sch](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-module.sch)
+* PDF: [analogue-board.pdf](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-module.pdf)
+
+Blog posts associated with these schematics are:
+
+* [Clock design log #1 - analogue board](https://ornotblog.blogspot.co.uk/2017/05/clock-design-log-2-time-module.html)
