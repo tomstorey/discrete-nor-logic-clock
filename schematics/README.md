@@ -29,6 +29,12 @@ Schematics are available as:
 * EAGLE .sch file: [analogue-board.sch](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-module.sch)
 * PDF: [analogue-board.pdf](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-module.pdf)
 
+Additional files related to this board are:
+
+* [offset.c](https://github.com/tomstorey/discrete-nor-logic-clock/blob/master/offset-monitor-program/offset.c): a simple C program which was used to collect statistics about AC frequency drift/stability
+* analogue board schematic and PDF were revised to correct a design fault
+
 Blog posts associated with these schematics are:
 
 * [Clock design log #2 - time module](https://ornotblog.blogspot.co.uk/2017/05/clock-design-log-2-time-module.html)
+* [Clock build log #2 - time module](https://ornotblog.blogspot.co.uk/2017/05/clock-build-log-2-time-module.html)
