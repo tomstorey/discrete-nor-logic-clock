@@ -8,7 +8,9 @@ const int time_adjust = 3600;
 /*
  * Return UNIX epoch
  */
-int get_timestamp(void) {
+int
+get_timestamp(void)
+{
     return (int)time(NULL) + time_adjust;
 }
 
