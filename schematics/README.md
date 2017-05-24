@@ -30,7 +30,7 @@ Schematics are available as:
 
 Additional files related to this board are:
 
-* [offset.c](https://github.com/tomstorey/discrete-nor-logic-clock/blob/master/AC-offset-monitor-script/offset.c): a simple program which was used to collect statistics about AC frequency stability
+* [offset.c](https://github.com/tomstorey/discrete-nor-logic-clock/blob/master/offset-monitor-program/offset.c): a simple C program which was used to collect statistics about AC frequency drift/stability
 * analogue board schematic and PDF were revised to correct a design fault
 
 Blog posts associated with these schematics are:
