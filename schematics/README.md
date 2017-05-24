@@ -18,6 +18,7 @@ Schematics are available as:
 Blog posts associated with these schematics are:
 
 * [Clock design log #1 - analogue board](https://ornotblog.blogspot.co.uk/2017/04/clock-design-log-1-analogue-board.html)
+* [Clock build log #1 - analogue board](https://ornotblog.blogspot.co.uk/2017/05/clock-build-log-1-analogue-board.html)
 
 ## 2. Time module
 
