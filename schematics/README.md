@@ -26,8 +26,8 @@ The time module contains counters and reset circuitry that counts from 00:00:00 
 
 Schematics are available as:
 
-* EAGLE .sch file: [analogue-board.sch](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-module.sch)
-* PDF: [analogue-board.pdf](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-module.pdf)
+* EAGLE .sch file: [time-module.sch](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-module.sch)
+* PDF: [time-module.pdf](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-module.pdf)
 
 Additional files related to this board are:
 
@@ -38,3 +38,25 @@ Blog posts associated with these schematics are:
 
 * [Clock design log #2 - time module](https://ornotblog.blogspot.co.uk/2017/05/clock-design-log-2-time-module.html)
 * [Clock build log #2 - time module](https://ornotblog.blogspot.co.uk/2017/05/clock-build-log-2-time-module.html)
+
+## 3. Time decoders
+
+The time decoder board contains six BCD to 7 segment decoders for driving the 6 displays that show the time on the front of the clock. There are:
+
+* 3x 4 bit decoders capable of displaying 0-9
+* 2x 3 bit decoders capable of displaying 0-5 (using Rev B design)
+* 1x 2 bit decoder capable of displaying 0-3 (using Rev B design)
+
+Schematics are available as:
+
+* EAGLE .sch file: [time-decoders.sch](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-decoders.sch)
+* PDF: [time-decoders.pdf](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-decoders.pdf)
+
+Additional files related to this board are:
+
+* [2 bit BCD NOR 7 seg decoder Rev B.logicly](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/7-seg-decoders/2%20bit%20BCD%20NOR%207%20seg%20decoder%20Rev%20B.logicly): re-designed 2 bit 7 segment decoder using fewer gates/transistors, also viewable as [.png](https://github.com/tomstorey/discrete-nor-logic-clock/blob/master/7-seg-decoders/2%20bit%20BCD%20NOR%207%20seg%20decoder%20Rev%20B.png)
+* [3 bit BCD NOR 7 seg decoder Rev B.logicly](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/7-seg-decoders/3%20bit%20BCD%20NOR%207%20seg%20decoder%20Rev%20B.logicly): re-designed 3 bit 7 segment decoder using fewer gates/transistors, also viewable as [.png](https://github.com/tomstorey/discrete-nor-logic-clock/blob/master/7-seg-decoders/2%20bit%20BCD%20NOR%207%20seg%20decoder%20Rev%20B.png)
+
+Blog posts associated with these schematics are:
+
+* [Clock design log #3 - time decoders](https://ornotblog.blogspot.co.uk/2017/05/clock-design-log-2-time-decoders.html)
