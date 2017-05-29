@@ -26,8 +26,8 @@ The time module contains counters and reset circuitry that counts from 00:00:00 
 
 Schematics are available as:
 
-* EAGLE .sch file: [analogue-board.sch](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-module.sch)
-* PDF: [analogue-board.pdf](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-module.pdf)
+* EAGLE .sch file: [time-module.sch](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-module.sch)
+* PDF: [time-module.pdf](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/time-module.pdf)
 
 Additional files related to this board are:
 
