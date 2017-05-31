@@ -59,4 +59,4 @@ Additional files related to this board are:
 
 Blog posts associated with these schematics are:
 
-* [Clock design log #3 - time decoders](https://ornotblog.blogspot.co.uk/2017/05/clock-design-log-2-time-decoders.html)
+* [Clock design log #3 - time decoders](https://ornotblog.blogspot.co.uk/2017/05/clock-design-log-3-time-decoders.html)
