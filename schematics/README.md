@@ -61,3 +61,19 @@ Blog posts associated with these schematics are:
 
 * [Clock design log #3 - time decoders](https://ornotblog.blogspot.co.uk/2017/05/clock-design-log-3-time-decoders.html)
 * [Clock build log #3 - time decoders](https://ornotblog.blogspot.co.uk/2017/06/clock-build-log-3-time-decoders.html)
+
+## 4. Display board
+
+The display board makes the clock useful by displaying visually the state of the various counters and other circuits. It has a collection of 7 and 16 segment LED displays arranged in two rows:
+
+* Clock as HH MM SS (e.g. 19 50 28)
+* Calendar as dd DD MM (e.g. WE 05 JUL)
+
+Schematics are available as:
+
+* EAGLE .sch file: [display-board.sch](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/display-board.sch)
+* PDF: [display-board.pdf](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/display-board.pdf)
+
+One combo blog post is associated with these schematics:
+
+* [Clock design and build log #4 - display board](https://ornotblog.blogspot.co.uk/2017/07/clock-design-and-build-log-4-display-board.html)
