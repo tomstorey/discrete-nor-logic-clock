@@ -76,4 +76,4 @@ Schematics are available as:
 
 One combo blog post is associated with these schematics:
 
-* [Clock design and build log #4 - display board](https://ornotblog.blogspot.co.uk/2017/07/clock-design-and-build-log-4-display-board.html)
+* [Clock design and build log #4 - display board](https://ornotblog.blogspot.co.uk/2017/07/clock-design-and-build-log-4-display.html)
