@@ -77,3 +77,16 @@ Schematics are available as:
 One combo blog post is associated with these schematics:
 
 * [Clock design and build log #4 - display board](https://ornotblog.blogspot.co.uk/2017/07/clock-design-and-build-log-4-display.html)
+
+## 5. Calendar module
+
+As it says on the tin, the calendar module keeps track of the date, specifically day of the week, day of the month and month. The year is not tracked.
+
+Schematics are available as:
+
+* EAGLE .sch file: [calendar-module.sch](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/calendar-module.sch)
+* PDF: [calendar-module.pdf](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/calendar-module.pdf)
+
+Blog posts associated with these schematics are:
+
+* [Clock design log #5 - calendar module](https://ornotblog.blogspot.co.uk/2017/07/clock-design-log-5-calendar-module.html)
