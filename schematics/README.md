@@ -80,7 +80,7 @@ One combo blog post is associated with these schematics:
 
 ## 5. Calendar module
 
-As it says on the tin, the calendar module keeps track of the date, specifically day of the week, day of the month and month. The year is not tracked.
+As it says on the tin, the calendar module keeps track of the date, specifically day of the week, day of the month and month. The year is not tracked, although leap year handling has been implemented.
 
 Schematics are available as:
 
