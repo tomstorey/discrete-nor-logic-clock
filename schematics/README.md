@@ -90,3 +90,4 @@ Schematics are available as:
 Blog posts associated with these schematics are:
 
 * [Clock design log #5 - calendar module](https://ornotblog.blogspot.co.uk/2017/07/clock-design-log-5-calendar-module.html)
+* [Clock build log #5 - calendar module](https://ornotblog.blogspot.co.uk/2017/07/clock-build-log-5-calendar-module.html)
