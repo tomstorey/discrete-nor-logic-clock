@@ -91,3 +91,20 @@ Blog posts associated with these schematics are:
 
 * [Clock design log #5 - calendar module](https://ornotblog.blogspot.co.uk/2017/07/clock-design-log-5-calendar-module.html)
 * [Clock build log #5 - calendar module](https://ornotblog.blogspot.co.uk/2017/07/clock-build-log-5-calendar-module.html)
+
+## 6. Calendar decoders
+
+The calendar decoder board contains 3 decoders, one for day of week, one for day of month, and the third for month.
+
+Day of month readout is the first two letters of the day name (MO, TU, WE, etc), while the day of month decoder uses one of the same decoders as used in the time decoder module. Month names are the first 3 letters (e.g. JAN, FEB, MAR, etc).
+
+Schematics are available as:
+
+* EAGLE .sch file: [calendar-decoders.sch](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/calendar-decoders.sch)
+* PDF: [calendar-decoders.pdf](https://github.com/tomstorey/discrete-nor-logic-clock/raw/master/schematics/calendar-decoders.pdf)
+
+One combo blog post is associated with these schematics:
+
+* [Clock design and build log #6 - calendar decoders](https://ornotblog.blogspot.co.uk/2017/08/clock-design-and-build-calendar.html)
+
+This concludes the build of the clock itself. One additional board is planned in the future to enable the display to be dimmed between certain hours.
