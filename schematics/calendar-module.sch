@@ -10890,6 +10890,8 @@ W = angled&lt;p&gt;
 <part name="GATE147" library="NOR gate clock" deviceset="2NOR" device=""/>
 <part name="GATE148" library="NOR gate clock" deviceset="2NOR" device=""/>
 <part name="GATE149" library="NOR gate clock" deviceset="2NOR" device=""/>
+<part name="C3" library="rcl" deviceset="C-EU" device="050-025X075" value="1nF"/>
+<part name="SUPPLY22" library="supply2" deviceset="VSS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11159,6 +11161,8 @@ BUTTON PRESS.</text>
 <instance part="GATE147" gate="G$1" x="81.28" y="408.94"/>
 <instance part="GATE148" gate="G$1" x="106.68" y="431.8"/>
 <instance part="GATE149" gate="G$1" x="106.68" y="411.48"/>
+<instance part="C3" gate="G$1" x="182.88" y="398.78"/>
+<instance part="SUPPLY22" gate="G$1" x="182.88" y="388.62"/>
 </instances>
 <busses>
 </busses>
@@ -12010,7 +12014,8 @@ BUTTON PRESS.</text>
 <pinref part="GATE45" gate="G$1" pin="A"/>
 <pinref part="GATE145" gate="G$1" pin="Q"/>
 <wire x1="406.4" y1="482.6" x2="406.4" y2="416.56" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="393.7" x2="195.58" y2="416.56" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="393.7" x2="195.58" y2="403.86" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="403.86" x2="195.58" y2="416.56" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="416.56" x2="127" y2="416.56" width="0.1524" layer="91"/>
 <wire x1="127" y1="416.56" x2="127" y2="469.9" width="0.1524" layer="91"/>
 <pinref part="GATE28" gate="G$1" pin="C"/>
@@ -12031,6 +12036,10 @@ BUTTON PRESS.</text>
 <pinref part="GATE32" gate="G$1" pin="A"/>
 <wire x1="91.44" y1="462.28" x2="91.44" y2="469.9" width="0.1524" layer="91"/>
 <junction x="91.44" y="469.9"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="403.86" x2="182.88" y2="403.86" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="403.86" x2="182.88" y2="401.32" width="0.1524" layer="91"/>
+<junction x="195.58" y="403.86"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13236,6 +13245,11 @@ BUTTON PRESS.</text>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY21" gate="G$1" pin="VSS"/>
 <wire x1="124.46" y1="401.32" x2="124.46" y2="398.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY22" gate="G$1" pin="VSS"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="391.16" x2="182.88" y2="393.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD" class="0">
