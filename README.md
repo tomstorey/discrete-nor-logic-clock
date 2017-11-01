@@ -1,5 +1,5 @@
 # Discrete NOR logic clock
-<img align="right" src="https://2.bp.blogspot.com/-48ZTjXPvFBI/WfXUCKd1HfI/AAAAAAAALBc/6YKYqadFYgoEA36tWO81GKHC1RkXdbfCwCLcBGAs/s200/IMG_20171029_123459.jpg">
+[<img align="right" src="https://2.bp.blogspot.com/-48ZTjXPvFBI/WfXUCKd1HfI/AAAAAAAALBc/6YKYqadFYgoEA36tWO81GKHC1RkXdbfCwCLcBGAs/s200/IMG_20171029_123459.jpg">](https://2.bp.blogspot.com/-48ZTjXPvFBI/WfXUCKd1HfI/AAAAAAAALBc/6YKYqadFYgoEA36tWO81GKHC1RkXdbfCwCLcBGAs/s1600/IMG_20171029_123459.jpg)
 
 This repository contains design files for a project I completed, which was to build a clock (and calendar) solely out of discrete transistor NOR logic.
 
