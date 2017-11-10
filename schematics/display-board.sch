@@ -8720,6 +8720,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="1016" y1="271.78" x2="93.98" y2="271.78" width="0.1524" layer="97"/>
 <wire x1="93.98" y1="271.78" x2="93.98" y2="495.3" width="0.1524" layer="97"/>
 <text x="96.52" y="492.76" size="2.54" layer="97" align="top-left">DATE DISPLAY</text>
+<text x="96.52" y="480.06" size="1.778" layer="97">ALL 7 SEGMENT DISPLAYS ARE KINGBRIGHT SA08-21CGKWA
+
+ALL 16 SEGMENT DISPLAYS ARE KINGBRIGHT PSA08-12CGKWA</text>
+<text x="248.92" y="708.66" size="1.778" layer="97">ALL 7 SEGMENT DISPLAYS ARE KINGBRIGHT SA08-21CGKWA</text>
 </plain>
 <instances>
 <instance part="A_BUS" gate="G$1" x="464.82" y="213.36" rot="R270"/>
@@ -12855,4 +12859,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
